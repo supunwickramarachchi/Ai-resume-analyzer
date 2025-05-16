@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Analyzer{% endblock title %}
+
+{% block content %}
+
+    <div class="container mt-5">
+
+        <h2 class="text-muted fw-bold mb-4 text-center" style="font-family: 'Poppins', sans-serif;">AI Resume Ranker</h2>
+
+        <form action="/analyze" method="POST" enctype="multipart/form-data" class="p-4 bg-white shadow rounded">
+            
+            <div class="mb-3">
+                <label class="form-label">Upload Resume (.pdf):</label><br>
+                <input class="form-control" type="file" name="resume" accept=".pdf" required><br><br>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Paste Job Description:</label><br>
+                <textarea class="form-control" rows="10" name="job_desc" rows="10" cols="50" required></textarea><br><br>
+            </div>
+
+            <button class="btn btn-primary w-100" type="submit">Analyze</button>
+        </form>
+
+    </div>
+
+{% endblock content %}
+
