@@ -25,8 +25,8 @@ This is an AI-powered resume analyzer web app built with Flask and Google's Gemi
 
 > _Tip: Add screenshots here or paste images in your GitHub README directly!_
 
-![screenshot 1](screenshots/home.png)
-![screenshot 2](screenshots/result.png)
+![screenshot 1](screenshots/home.PNG)
+![screenshot 2](screenshots/result.PNG)
 
 ## 🔧 Setup Instructions
 
